@@ -58,7 +58,7 @@ const validate = (name, value) => {
         <div key={user.id}>
             <p>Uid: {user.id}</p>
             <p>Date created: {user.createdAt}</p>
-            <p>Email: {user.username}</p>
+            <p>Username: {user.username}</p>
           <br />     
         </div>     
       ))}
